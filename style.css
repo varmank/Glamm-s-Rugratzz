@@ -114,11 +114,17 @@ section {
   margin-bottom: var(--margin);
 }
 
-.photo_gallery {
+/* .photo_gallery {
   display: flex;
   justify-content: center;
   gap: 1em;
+} */
+.photo_gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1em;
 }
+
 
 .gallery h1 {
   margin: 1.5em 0;
@@ -232,7 +238,7 @@ footer p {
   /* ------------------------------------------------- */
 
   .photo_gallery {
-    flex-direction: column;
+    grid-template-columns: 1fr 1fr;
   }
 
 
