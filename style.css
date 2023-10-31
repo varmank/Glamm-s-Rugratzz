@@ -7,7 +7,7 @@
 }
 
 :root {
-  --min: min(200ch, 100% - 5rem);
+  --min: min(200ch, 100% - 2rem);
   --margin: 1.5em;
   --color-primary: #ffffff;
   --color-secondary: #fdfde9;
