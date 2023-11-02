@@ -292,7 +292,10 @@ footer p {
     .s_title {
         font-size: 1rem;
     }
-
+    .photo_gallery {
+      columns: 2;
+    }
+  
     .contant {
         font-size: 1.2rem;     
     }
