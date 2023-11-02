@@ -114,6 +114,20 @@ section {
   margin-bottom: var(--margin);
 }
 
+.services li{
+  list-style-type: circle;
+  margin-top: .5em;
+}
+.services {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  \\gap: 5em;
+}
+.services p{
+  text-align: left;
+}
+
 /* .photo_gallery {
   display: flex;
   justify-content: center;
