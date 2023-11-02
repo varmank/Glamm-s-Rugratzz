@@ -139,8 +139,8 @@ section {
   gap: 1em;
 } */
 .photo_gallery {
-  width: calc(100vw - 4rem) ;
-  margin: 20px auto;
+  width: 100% ;
+  margin: auto;
   columns: 3;
   column-gap: 20px;
 }
@@ -156,7 +156,7 @@ section {
 }
 .photo_gallery figure video {
   max-width: 100%;
-  border-radius: 15px;
+  border-radius: .5em;
 }
 
 
