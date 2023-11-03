@@ -63,6 +63,11 @@ header {
   align-items: center;
   justify-content: space-between;
 }
+
+.prymary_nav ul{
+  display: flex;
+  gap: 1em;
+}
 /* --------------------------------------------------- */
 
 .toggle {
