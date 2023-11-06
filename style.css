@@ -293,6 +293,9 @@ footer p {
     display: block;
     \\padding: 0 1em;
   }
+  .services ul {
+    padding: 0 1em ;
+  }
 
   /* ------------------------------------------------- */
 
