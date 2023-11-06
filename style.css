@@ -158,7 +158,7 @@ section {
 .photo_gallery {
   width: 100% ;
   margin:auto;
-  columns: 3;
+  columns: 4;
   column-gap: 10px;
 }
 
