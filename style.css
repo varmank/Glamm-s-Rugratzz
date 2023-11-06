@@ -70,7 +70,7 @@ header {
 }
 /* --------------------------------------------------- */
 
-.toggle {
+\\.toggle {
   position: absolute;
   right: 0;
   z-index: 100;
@@ -283,7 +283,7 @@ footer p {
   } 
 
   .secondary_nav_list {
-    margin: 3em;
+    margin: 3em 1em;
   }
   .secondary_nav_list li {
     margin-top: 1em;
@@ -291,7 +291,7 @@ footer p {
 
   .services {
     display: block;
-    padding: 0 1em;
+    \\padding: 0 1em;
   }
 
   /* ------------------------------------------------- */
