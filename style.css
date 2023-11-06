@@ -2,7 +2,7 @@
 *::before,
 *::after {
   margin: 0;
-  padding: 0;
+  \\padding: 0;
   box-sizing: border-box;
 }
 
@@ -123,14 +123,19 @@ section {
   list-style-type: circle;
   margin-top: .5em;
 }
+.sub_list li {
+  list-style-type: disc;
+  font-size: .9rem;
+  margin-top: auto;
+}
 .services {
   display: flex;
-  align-items: center;
+  \\align-items: center;
   justify-content: space-evenly;
 
 }
 .services p{
-  text-align: left;
+  \\text-align: left;
 }
 
 /* .photo_gallery {
