@@ -128,11 +128,18 @@ section {
   font-size: .9rem;
   margin-top: auto;
 }
+.services_container {
+  padding: 2em 0;
+  
+}
+.services_container h1{
+  margin: 0;
+}
 .services {
   display: flex;
   \\align-items: center;
   justify-content: space-evenly;
-
+  margin-top: 1em;
 }
 .services p{
   \\text-align: left;
