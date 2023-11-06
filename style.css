@@ -144,7 +144,9 @@ section {
 .services p{
   \\text-align: left;
 }
-
+.services ul {
+  padding: 0 1em ;
+}
 /* .photo_gallery {
   display: flex;
   justify-content: center;
@@ -293,9 +295,9 @@ footer p {
     display: block;
     \\padding: 0 1em;
   }
-  .services ul {
+  /* .services ul {
     padding: 0 1em ;
-  }
+  } */
 
   /* ------------------------------------------------- */
 
