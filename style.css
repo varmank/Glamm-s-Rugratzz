@@ -239,10 +239,7 @@ footer p {
   .prymary_nav {
     display: none;
   }
-  .team {
-    font-size: 1rem;
-    letter-spacing: .5px;
-  }
+  
   .img img {
     width: 40%;
   }
@@ -336,6 +333,10 @@ footer p {
 @media (max-width: 412px) {
     .s_title {
         font-size: 1rem;
+    }
+    .team {
+      font-size: 1rem;
+      letter-spacing: .5px;
     }
     .photo_gallery {
       columns: 2;
