@@ -239,7 +239,9 @@ footer p {
   .prymary_nav {
     display: none;
   }
-
+  .img img {
+    width: 35%;
+  }
   /* ------------------------------------------------ */
 
   .toggle {
