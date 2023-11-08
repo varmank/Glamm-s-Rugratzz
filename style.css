@@ -113,6 +113,22 @@ section {
 .title {
   margin: 0.8em 0;
 }
+.img {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.team {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+.img img {
+  width: 35%;
+  border-radius: 10px;
+  margin-top: 1em;
+}
 
 .contant {
   font-size: 1.4rem;
