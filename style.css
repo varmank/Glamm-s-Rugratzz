@@ -21,7 +21,7 @@ html {
 
 body {
   background-color: var(--color-primary);
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
 }
 
 li {
@@ -238,6 +238,12 @@ figure img {
 }
 .contact_content p{
     margin-top: 1em;
+}
+
+.mail {
+  font-family: sans-serif;
+  text-transform: lowercase;
+  font-size: 1rem;
 }
 
 footer {
