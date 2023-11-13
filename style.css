@@ -219,15 +219,38 @@ figure img {
   border-bottom: none;
   padding: 1.5em 0;
 }
+.pay_mathod {
+  margin-top: 1em;
+}
 
+.pay_container {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  gap: 1em;
+
+  margin-top: .5em;
+}
+
+.pay_container img {
+  width: 30px;
+ 
+}
 .contact_content p{
     margin-top: 1em;
 }
 
 footer {
+  position: relative;
   background-color: var(--color-primary);
   padding: 0.5em 0;
   border-top: 2px solid black;
+}
+
+.Social {
+  position: absolute;
+  top: .5em;
+  right: 0.5em;
 }
 
 footer p {
