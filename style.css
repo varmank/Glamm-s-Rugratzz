@@ -253,19 +253,26 @@ figure img {
 }
 
 footer {
-  position: relative;
+  \\position: relative;
   background-color: var(--color-primary);
   padding: 0.5em 0;
   border-top: 2px solid black;
 }
 
+footer  h1 {
+  font-size: 1rem;
+}
+
 .Social {
-  position: absolute;
-  top: .5em;
-  right: 0.5em;
+  width: fit-content;
+  margin: auto;
+  \\position: absolute;
+  \\top: .5em;
+  \\right: 0.5em;
 }
 
 footer p {
+  font-size: .7rem;
   text-align: center;
 }
 
